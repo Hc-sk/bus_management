@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>user</class>
+ <widget class="QWidget" name="user">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>534</width>
+    <height>356</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>534</width>
+    <height>356</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>534</width>
+    <height>356</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#user{image: url(:/new/prefix1/bus.jpg);}</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>140</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>121</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>121</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 237, 255);</string>
+   </property>
+   <property name="text">
+    <string>公交线路查询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>140</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>111</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>111</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 237, 255);</string>
+   </property>
+   <property name="text">
+    <string>乘车路线方案查询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>230</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>121</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>121</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 237, 255);</string>
+   </property>
+   <property name="text">
+    <string>道路信息查询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>230</y>
+     <width>111</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>111</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>111</width>
+     <height>51</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 237, 255);</string>
+   </property>
+   <property name="text">
+    <string>公交站点查询</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_5">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>10</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 237, 255);</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

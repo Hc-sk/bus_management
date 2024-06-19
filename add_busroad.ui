@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>add_busroad</class>
+ <widget class="QWidget" name="add_busroad">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>534</width>
+    <height>356</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>534</width>
+    <height>356</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>534</width>
+    <height>356</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#add_busroad{image: url(:/new/prefix1/bus.jpg);}</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>100</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请输入公交路线ID：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="idEdit">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>100</y>
+     <width>113</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请输入公交路线编号：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="numEdit">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>140</y>
+     <width>113</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>180</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请输入起始站ID：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="startEdit">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>180</y>
+     <width>113</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>210</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请输入终点站ID：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="endEdit">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>220</y>
+     <width>113</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>260</y>
+     <width>121</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>请输入途径站点：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="overEdit">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>260</y>
+     <width>113</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>170</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 237, 255);</string>
+   </property>
+   <property name="text">
+    <string>添加</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>10</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 237, 255);</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

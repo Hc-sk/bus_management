@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>manager</class>
+ <widget class="QWidget" name="manager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>534</width>
+    <height>356</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>534</width>
+    <height>356</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>534</width>
+    <height>356</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#manager{image: url(:/new/prefix1/bus.jpg);}</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>200</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 237, 255);</string>
+   </property>
+   <property name="text">
+    <string>公交站点管理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>150</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 237, 255);</string>
+   </property>
+   <property name="text">
+    <string>道路信息管理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>250</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 237, 255);</string>
+   </property>
+   <property name="text">
+    <string>公交路线管理</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>12</y>
+     <width>75</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(208, 237, 255);</string>
+   </property>
+   <property name="text">
+    <string>返回</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
